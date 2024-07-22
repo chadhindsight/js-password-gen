@@ -91,7 +91,7 @@ let upperCasedCharacters = [
 // Function to prompt user for password options
 function getPasswordOptions() {
     // Variable to store length of password from user input
-    var length = parseInt(
+    let length = parseInt(
         prompt('How many characters would you like your password to contain?')
     );
 
@@ -108,22 +108,22 @@ function getPasswordOptions() {
     }
 
     // Variable to store boolean regarding the inclusion of special characters
-    var hasSpecialCharacters = confirm(
+    const hasSpecialCharacters = confirm(
         'Click OK to confirm including special characters.'
     );
 
     // Variable to store boolean regarding the inclusion of numeric characters
-    var hasNumericCharacters = confirm(
+    const hasNumericCharacters = confirm(
         'Click OK to confirm including numeric characters.'
     );
 
     // Variable to store boolean regarding the inclusion of lowercase characters
-    var hasLowerCasedCharacters = confirm(
+    const hasLowerCasedCharacters = confirm(
         'Click OK to confirm including lowercase characters.'
     );
 
     // Variable to store boolean regarding the inclusion of uppercase characters
-    var hasUpperCasedCharacters = confirm(
+    const hasUpperCasedCharacters = confirm(
         'Click OK to confirm including uppercase characters.'
     );
 
